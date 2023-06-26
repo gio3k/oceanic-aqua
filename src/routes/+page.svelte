@@ -9,7 +9,7 @@
             <img class="w-32 h-32 rounded-full shadow-xl ring-1 ring-gray-900/5" src="picture.jpeg" alt="profile pic"/>
             <div class="flex flex-col space-y-2">
                 <p class="h-6 text-2xl font-medium">Gio</p>
-                <p class="h-4 text-base font-light">developer / ui designer</p>
+                <p class="h-4 text-base font-light">software developer</p>
                 <p class="h-4 text-base font-light">perth, wa</p>
             </div>
         </div>

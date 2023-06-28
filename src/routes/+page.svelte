@@ -2,7 +2,7 @@
       rel="stylesheet">
 
 <script>
-    let username = 'Gianni S';
+    let username = '@lotuspar';
 </script>
 
 <div class="relative flex flex-col flex-wrap justify-center items-center min-h-screen">
@@ -13,7 +13,7 @@
             <div class="flex flex-row justify-between items-center">
                 <div class="flex flex-col">
                     <span class="text-4xl font-semibold" role="complementary" on:mouseenter={()=>username = "Gianni S"}>Gio</span>
-                    <span class="text-gray-900 text-opacity-40">{username}</span>
+                    <span class="ml-0.5 text-gray-900 text-opacity-40">{username}</span>
                 </div>
                 <div class="relative">
                     <img src="picture.jpeg" class="ring-1 ring-gray-900/5 w-16 rounded-full" alt="Profile pic">

@@ -38,8 +38,8 @@
     .oca-background-item.overlay {
         z-index: -3;
 
-        -webkit-backdrop-filter: blur(40px);
-        backdrop-filter: blur(40px);
+        -webkit-backdrop-filter: blur(70px);
+        backdrop-filter: blur(70px);
 
         background-color: rgba(250, 250, 250, 0.7);
     }
@@ -52,8 +52,8 @@
 
     @media (prefers-color-scheme: dark) {
         .oca-background-item.overlay {
-            -webkit-backdrop-filter: blur(45px);
-            backdrop-filter: blur(45px);
+            -webkit-backdrop-filter: blur(75px);
+            backdrop-filter: blur(75px);
             background-color: rgba(30, 30, 30, 0.8);
         }
     }

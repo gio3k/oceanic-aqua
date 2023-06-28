@@ -2,7 +2,7 @@
       rel="stylesheet">
 
 <script>
-    let username = '';
+    let username = 'Gianni S';
 </script>
 
 <div class="relative flex flex-col flex-wrap justify-center items-center min-h-screen">
@@ -12,7 +12,7 @@
         <div class="relative max-w-xs bg-white bg-opacity-80 p-6 m-3 ring-1 ring-gray-900/5 rounded-lg">
             <div class="flex flex-row justify-between items-center">
                 <div class="flex flex-col">
-                    <span class="text-4xl font-semibold">Gio</span>
+                    <span class="text-4xl font-semibold" on:mouseenter={()=>username = "Gianni S"}>Gio</span>
                     <span class="text-gray-900 text-opacity-40">{username}</span>
                 </div>
                 <div class="relative">
